@@ -5,6 +5,7 @@ import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 
 function App() {
+  // nmadur qilish kk
   const dispatch = useDispatch();
   const selector = useSelector((state) => state.todos);
   console.log(selector);
