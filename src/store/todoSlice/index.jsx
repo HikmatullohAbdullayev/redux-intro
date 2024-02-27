@@ -8,7 +8,6 @@ const todoSlice =  createSlice({
     name: "todo",
     reducers:{
         addTodo: (state,actions) => {
-            // console.log(state,actions );
             state.list = [actions.payload, ...state.list]
         },
         deleteTodo: (state,actions ) => {
